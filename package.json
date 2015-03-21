@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eltallerdiminuto/edison_mqtto_client",
   "dependencies": {
-    "mqtt": "^1.1.2"
+    "mqtt": "^1.1.2",
+    "time": "^0.11.1"
   }
 }
