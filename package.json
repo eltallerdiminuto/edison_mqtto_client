@@ -1,0 +1,19 @@
+{
+  "name": "mqtto_1",
+  "version": "0.0.0",
+  "description": "first version of mosquitto client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eltallerdiminuto/edison_mqtto_client.git"
+  },
+  "author": "Arnauti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eltallerdiminuto/edison_mqtto_client/issues"
+  },
+  "homepage": "https://github.com/eltallerdiminuto/edison_mqtto_client"
+}
