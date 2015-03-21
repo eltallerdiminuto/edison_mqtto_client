@@ -18,8 +18,8 @@ var mqtt    = require('mqtt');
 var client  = mqtt.connect('mqtt://176.58.96.63');
 
 client.on('connect', function () {
-  client.subscribe('presence');
-  client.publish('presence', 'Hello mqtt');
+  client.subscribe('general');
+  client.publish('general', 'Hello mqtt');
 });
 
 client.on('message', function (topic, message) {
@@ -27,3 +27,8 @@ client.on('message', function (topic, message) {
   console.log(message.toString());
   client.end();
 });
+
+
+//
+// client.publish("general", "Esto es un mensaje");
+// console.log("Mensaje enviado");
