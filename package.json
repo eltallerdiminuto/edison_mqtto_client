@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eltallerdiminuto/edison_mqtto_client/issues"
   },
-  "homepage": "https://github.com/eltallerdiminuto/edison_mqtto_client"
+  "homepage": "https://github.com/eltallerdiminuto/edison_mqtto_client",
+  "dependencies": {
+    "mqtt": "^1.1.2"
+  }
 }
