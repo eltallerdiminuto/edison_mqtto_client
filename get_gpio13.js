@@ -8,9 +8,4 @@ myInput.dir(mraa.DIR_OUT); //set the gpio direction to output
 client.on('connect', function () {
   console.log("Conectado");
   client.subscribe('sensor');
-  if (myInput.read() > 0){
-    client.publish('sensor', str_value);
-    console.log("BtN!!! ==========================");
-  }
-  console.log("nop");
 });
