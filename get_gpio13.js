@@ -12,4 +12,5 @@ client.on('connect', function () {
     client.publish('sensor', str_value);
     console.log("BtN!!! ==========================");
   }
+  console.log("nop");
 });
